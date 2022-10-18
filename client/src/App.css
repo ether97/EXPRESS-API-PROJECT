@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace; 
+
+}
+
+body {
+  color: black;
+  min-height: 150vh;
+  width: 100vw;
+}
+
+.item-container {
+  align-self: center;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.App {
+  background: linear-gradient(to bottom, blue, red);
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+}
+
+label {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: x-large;
+}
+
+input {
+  border-style: none;
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 5px;
+  margin: 10px;
+  width: 50%;
+  align-self: center;
+  outline: none;
+}
+
+input[type="text"] {
+  text-align: center;
+  color: white;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: large;
+  transition: 1s;
+
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: large;
+}
